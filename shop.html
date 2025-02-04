@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djellaba Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 15px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            max-width: 90%;
+            margin: auto;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 90%;
+            max-width: 300px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .djellaba-info {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: left;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            .product {
+                width: 100%;
+            }
+            .djellaba-info {
+                padding: 15px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Djellaba Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="shop">
+        <h2>Our Djellaba Collection</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="https://cdn1.ozone.ru/s3/multimedia-1-x/6929795517.jpg" alt="Traditional Djellaba">
+                <h3>Traditional Djellaba</h3>
+                <p>$59.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://i.pinimg.com/474x/89/aa/ab/89aaabb84329c9b3f94e1a4ab0a93dd4.jpg" alt="Modern Djellaba">
+                <h3>Modern Djellaba</h3>
+                <p>$69.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn1.ozone.ru/s3/multimedia-1-w/6930258548.jpg" alt="Embroidered Djellaba">
+                <h3>Embroidered Djellaba</h3>
+                <p>$79.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://www.caftans-maroc.com/wp-content/uploads/2019/05/jabador-de-mariage-homme-1018x1024.jpg" alt="Luxury Djellaba">
+                <h3>Luxury Djellaba</h3>
+                <p>$89.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://img.joomcdn.net/5c21e00aa7528c5dcf4e7fad9ff1f57a7cc5542e_original.jpeg" alt="Casual Djellaba">
+                <h3>Casual Djellaba</h3>
+                <p>$49.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="//avatars.mds.yandex.net/i?id=819cc3f323fafa81295e0236e8e91aaa0204a6c4-5887379-images-thumbs&n=13" alt="Winter Djellaba">
+                <h3>Winter Djellaba</h3>
+                <p>$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Djellaba Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
